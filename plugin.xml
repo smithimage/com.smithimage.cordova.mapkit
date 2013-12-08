@@ -20,14 +20,23 @@
 
        <js-module src="www/MapKitPlug.js" name="mapkit"></js-module>
 
-        <header-file src="src/ios/MapKit.h" />
-        <source-file src="src/ios/MapKit.m" />
-
-	<header-file src="src/ios/CDVAnnotation.h" />
-	<source-file src="src/ios/CDVAnnotation.m" />
-	
 	<header-file src="src/ios/AsyncImageView.h" />
 	<source-file src="src/ios/AsyncImageView.m" />
+
+       	<header-file src="src/ios/CDVAnnotation.h" />
+	<source-file src="src/ios/CDVAnnotation.m" />
+
+	<header-file src="src/ios/DDAnnotation.h" />
+	<source-file src="src/ios/DDAnnotation.m" />
+
+	<header-file src="src/ios/DDAnnotationView.h" />
+	<source-file src="src/ios/DDAnnotationView.m" />
+	
+	<header-file src="JSONKit.h" />
+	<source-file src="JSONKit.m" />
+
+	<header-file src="src/ios/MapKit.h" />
+        <source-file src="src/ios/MapKit.m" />
 
     </platform>
 

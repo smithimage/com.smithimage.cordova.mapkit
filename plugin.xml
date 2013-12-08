@@ -37,6 +37,10 @@
 
 	<header-file src="src/ios/MapKit.h" compiler-flags="-fno-objc-arc" />
         <source-file src="src/ios/MapKit.m" compiler-flags="-fno-objc-arc" />
+       
+
+	 <framework src="MapKit.framework" />
+ 	
 
     </platform>
 

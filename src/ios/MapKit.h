@@ -7,8 +7,6 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 
-#import "CDVDeprecated.h"
-
 @interface MapKitView : CDVPlugin <MKMapViewDelegate> 
 {
 }

@@ -23,6 +23,12 @@
         <header-file src="src/ios/MapKit.h" />
         <source-file src="src/ios/MapKit.m" />
 
+	<header-file src="src/ios/CDVAnnotation.h" />
+	<source-file src="src/ios/CDVAnnotation.m" />
+	
+	<header-file src="src/ios/AsyncImageView.h" />
+	<source-file src="src/ios/AsyncImageView.m" />
+
     </platform>
 
 </plugin>

@@ -32,8 +32,8 @@
 	<header-file src="src/ios/DDAnnotationView.h" />
 	<source-file src="src/ios/DDAnnotationView.m" />
 	
-	<header-file src="JSONKit.h" />
-	<source-file src="JSONKit.m" />
+	<header-file src="src/ios/JSONKit.h" />
+	<source-file src="src/ios/JSONKit.m" />
 
 	<header-file src="src/ios/MapKit.h" />
         <source-file src="src/ios/MapKit.m" />

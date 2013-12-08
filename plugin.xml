@@ -39,8 +39,9 @@
         <source-file src="src/ios/MapKit.m" compiler-flags="-fno-objc-arc" />
        
 
-	 <framework src="MapKit.framework" />
- 	
+	<framework src="MapKit.framework" />
+ 	<framework src="QuartzCore.framework" />
+	
 
     </platform>
 

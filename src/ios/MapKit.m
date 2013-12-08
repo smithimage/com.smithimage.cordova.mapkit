@@ -7,7 +7,7 @@
 #import "CDVAnnotation.h"
 #import "AsyncImageView.h"
 
-#import "JSON/JSONKit.h"
+#import "JSONKit.h"
 #import "DDAnnotation.h"
 #import "DDAnnotationView.h"
 

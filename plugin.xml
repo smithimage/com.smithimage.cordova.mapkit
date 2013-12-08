@@ -20,23 +20,23 @@
 
        <js-module src="www/MapKitPlug.js" name="mapkit"></js-module>
 
-	<header-file src="src/ios/AsyncImageView.h" />
-	<source-file src="src/ios/AsyncImageView.m" />
+	<header-file src="src/ios/AsyncImageView.h" compiler-flags="-fno-objc-arc"  />
+	<source-file src="src/ios/AsyncImageView.m" compiler-flags="-fno-objc-arc" />
 
-       	<header-file src="src/ios/CDVAnnotation.h" />
-	<source-file src="src/ios/CDVAnnotation.m" />
+       	<header-file src="src/ios/CDVAnnotation.h" compiler-flags="-fno-objc-arc" />
+	<source-file src="src/ios/CDVAnnotation.m" compiler-flags="-fno-objc-arc" />
 
-	<header-file src="src/ios/DDAnnotation.h" />
-	<source-file src="src/ios/DDAnnotation.m" />
+	<header-file src="src/ios/DDAnnotation.h" compiler-flags="-fno-objc-arc" />
+	<source-file src="src/ios/DDAnnotation.m" compiler-flags="-fno-objc-arc" />
 
-	<header-file src="src/ios/DDAnnotationView.h" />
-	<source-file src="src/ios/DDAnnotationView.m" />
+	<header-file src="src/ios/DDAnnotationView.h" compiler-flags="-fno-objc-arc" />
+	<source-file src="src/ios/DDAnnotationView.m" compiler-flags="-fno-objc-arc" />
 	
-	<header-file src="src/ios/JSONKit.h" />
-	<source-file src="src/ios/JSONKit.m" />
+	<header-file src="src/ios/JSONKit.h" compiler-flags="-fno-objc-arc" />
+	<source-file src="src/ios/JSONKit.m" compiler-flags="-fno-objc-arc" />
 
-	<header-file src="src/ios/MapKit.h" />
-        <source-file src="src/ios/MapKit.m" />
+	<header-file src="src/ios/MapKit.h" compiler-flags="-fno-objc-arc" />
+        <source-file src="src/ios/MapKit.m" compiler-flags="-fno-objc-arc" />
 
     </platform>
 

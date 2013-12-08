@@ -18,7 +18,9 @@
                 </feature>
 	</config-file>
 
-       <js-module src="www/MapKitPlug.js" name="mapkit"></js-module>
+       <!--js-module src="www/MapKitPlug.js" name="mapkit">
+       		<clobbers target="mapkit" />
+       </js-module-->
 
 	<header-file src="src/ios/AsyncImageView.h" compiler-flags="-fno-objc-arc"  />
 	<source-file src="src/ios/AsyncImageView.m" compiler-flags="-fno-objc-arc" />

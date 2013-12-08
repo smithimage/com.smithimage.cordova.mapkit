@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="com.smithimage.cordova.mapkit"
+      version="0.1.0">
+
+    <name>mapkit</name>
+    <description>Cordova MapKit Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova, mapkit</keywords>
+
+    <!-- ios -->
+    <platform name="ios">
+
+        <config-file target="config.xml" parent="/*">
+                <feature name="MapKitView">
+                        <param name="ios-package" value="MapKitView"/>
+                </feature>
+	</config-file>
+
+       <js-module src="www/MapKitPlug.js" name="mapkit"></js-module>
+
+        <header-file src="src/ios/MapKit.h" />
+        <source-file src="src/ios/MapKit.m" />
+
+    </platform>
+
+</plugin>

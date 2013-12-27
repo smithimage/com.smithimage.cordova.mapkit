@@ -369,8 +369,7 @@
 // there are ~111km to a degree of latitude. regionThatFits will take care of
 // longitude, which is more complicated, anyway. 
 #define MINIMUM_VISIBLE_LATITUDE 0.01
-
-- (void) zoomToPins: (NSMutableArray*)arguments withDict:(NSMutableDictionary*)options
+- (void) zoomToPins: (CDVInvokedUrlCommand*)command;
 {
     CLLocationDegrees minLatitude = 90.0;
     CLLocationDegrees maxLatitude = -90.0;
